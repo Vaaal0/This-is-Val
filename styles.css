@@ -1,20 +1,34 @@
 body {
-    background-color: aliceblue;
+    background-image: url(https://plus.unsplash.com/premium_photo-1683134676662-645988a8074e?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Zm9uZG8lMjBkZSUyMGNvbG9yZXN8ZW58MHx8MHx8fDA%3D);
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 header {
-    text-align: center;
     padding: 20px;
-    margin: 2em;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100vh;
 }
 h1 {
     font-size: 2.5em;
     margin: 0;
+    color: #ffffff;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(201, 69, 135);
 }
 h3 {
     padding: 2em 0;
     text-align: justify;
     line-height: 1.6;
+}
+.intro{
+    background-color: rgba(255, 255, 255, 0.733);
+    width: 20em;
+    border: 15px solid rgb(235, 114, 205);
+    padding: 50px;
+    margin: 20px;
+    margin: 20px auto;
 }
