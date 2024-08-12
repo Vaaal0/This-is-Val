@@ -1,38 +1,54 @@
-body {
-    background-image: url(https://static.vecteezy.com/system/resources/previews/006/895/962/non_2x/rainbow-fantasy-background-holographic-illustrationon-in-pastel-colors-multicolored-sky-vector.jpg);
-    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
-    font-family: Arial, sans-serif;
+/* Header */
+.large-header {
+    position: relative;
+    width: 100%;
+    background: #333;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    z-index: 1;
+}
+
+#large-header {
+    background: linear-gradient(135deg, #00aaff, #00ff99);
+}
+
+.main-title {
+    position: absolute;
     margin: 0;
     padding: 0;
+    color: #f9f1e9;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
 }
-header {
-    padding: 20px;
-    display: flex;
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
-    height: 100vh;
+
+.demo-1 .main-title {
+    text-transform: uppercase;
+    font-size: 4.2em;
+    letter-spacing: 0.1em;
 }
-h1 {
-    font-size: 2.5em;
-    margin: 0;
-    color: #ffffff;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgb(201, 69, 135);
+
+.main-title .thin {
+    font-weight: 200;
 }
-h3 {
-    padding: 2em 0;
-    text-align: justify;
-    line-height: 1.6;
+
+@media only screen and (max-width: 768px) {
+    .demo-1 .main-title {
+        font-size: 3em;
+    }
 }
-.intro{
-    background-color: rgba(255, 255, 255, 0.733);
-    width: 29em;
-    border: 15px solid rgb(235, 114, 205);
-    padding: 50px;
-    margin: 20px;
-    margin: 20px auto;
+
+.link {
+    color: #ff0000;
+    /* Cambia a rojo */
+    text-decoration: none;
+    /* Opcional: elimina el subrayado */
 }
-.foti{
-    margin: 20px;
-    margin: 20px auto;
-}
+
+.link:hover {
+    color: #00ff00;
+    /* Cambia a verde cuando se pasa el mouse */
+}GIT PU
